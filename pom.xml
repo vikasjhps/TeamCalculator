@@ -3,10 +3,6 @@
   <groupId>com.group</groupId>
   <artifactId>TeamCalculator</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-<<<<<<< HEAD
-</project>
-=======
->>>>>>> master
   <dependencies>
 	<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>
@@ -17,7 +13,3 @@
 		</dependency>
 </dependencies>
 </project>
-<<<<<<< HEAD
-
-=======
->>>>>>> master
