@@ -9,7 +9,7 @@ public class Test {
 		double op2 = sc.nextDouble();
 		String operator = sc.nextLine();
 		
-		double result;
+		double result=0;
 		Addition add=new Addition();
 		Subtraction sub= new Subtraction();
 		Multiplication mult =new Multiplication();
