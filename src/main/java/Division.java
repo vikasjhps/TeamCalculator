@@ -1,5 +1,5 @@
 
-public class Divide implements ArithmeticOperations{
+public class Division implements ArithmeticOperations{
 
 	public double evaluate(double op1, double op2) {
 		double result = 0;
