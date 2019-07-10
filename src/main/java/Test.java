@@ -10,7 +10,7 @@ public class Test {
 		String operator = sc.nextLine();
 		
 		double result;
-//		if(op)
+		
 	}
 
 }
