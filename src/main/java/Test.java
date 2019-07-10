@@ -10,7 +10,22 @@ public class Test {
 		String operator = sc.nextLine();
 		
 		double result;
+		Addition add=new Addition();
+		Subtraction sub= new Subtraction();
+		Multiplication mult =new Multiplication();
+		Division div =new Division();
 		
+		if(operator.equals("+")) 
+			result =add.evaluate(op1,op2);
+		else if(operator.equals("-")) 
+			result =sub.evaluate(op1,op2);
+		else if(operator.equals("*")) 
+			result =mult.evaluate(op1,op2);
+		else if(operator.equals("/")) 
+			result =div.evaluate(op1,op2);
+		
+		
+		System.out.println("Result:"+ result);
 	}
 
 }
